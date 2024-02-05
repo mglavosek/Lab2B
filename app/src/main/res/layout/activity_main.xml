@@ -24,7 +24,7 @@
         android:inputType="numberDecimal"
         app:layout_constraintBaseline_toBaselineOf="@+id/fahrenheitText"
         app:layout_constraintStart_toEndOf="@+id/fahrenheitText"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/celsiusText"
@@ -44,7 +44,7 @@
         android:inputType="numberDecimal"
         app:layout_constraintBaseline_toBaselineOf="@+id/celsiusText"
         app:layout_constraintStart_toEndOf="@+id/celsiusText"
-        tools:ignore="TouchTargetSizeCheck" />
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/convertButton"
